@@ -32,6 +32,7 @@ StadiumInsights combine web scraping, traitement de données, stockage cloud et 
 ![Docker](https://img.shields.io/badge/Docker-Containerization-blue)
 
 ## 📂 Structure du Projet
+![WhatsApp Image 2024-12-09 à 21 53 39_deb5b51c](https://github.com/user-attachments/assets/47cc95b1-fd6d-408f-ac1a-9b18185cd12c)
 
 ```
 StadiumInsights/
@@ -84,12 +85,14 @@ docker-compose up
 ### Analyse
 * Requêtes SQL avancées sur Snowflake
 * Tableaux de bord interactifs Power BI
+![WhatsApp Image 2024-12-07 à 12 12 04_0abf7b85](https://github.com/user-attachments/assets/6af27a05-ade4-43ef-857e-09b6b846acca)
 
 ## 📊 Résultats & Insights
 
 * Classements des stades par capacité
 * Analyses géographiques détaillées
 * Visualisations interactives des infrastructures sportives
+![WhatsApp Image 2024-12-09 à 21 50 27_6502b565](https://github.com/user-attachments/assets/75ffafc6-abe0-44b4-9b33-994892db2e27)
 
 ## 🤝 Contribution
 
