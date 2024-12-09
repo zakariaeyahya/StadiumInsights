@@ -1,6 +1,6 @@
 <div align="center"> 
   <a href="#">
-    <img src="https://github.com/zakariaeyahya/Explorateur-Metiers-IT/assets/155691167/da44433d-d07a-44e9-9ef0-9269dde4dbb0" alt="Banner" width="720">
+    <img src="![image](https://github.com/user-attachments/assets/5fbeff13-b2ec-4ad7-9687-a072a6a3b3bf)" alt="Banner" width="720">
   </a>
 
   <div id="user-content-toc">
@@ -11,8 +11,6 @@
   
   <p>Collecte, transformation et visualisation des données de stades de football pour des analyses détaillées.</p>
   <a href="#" target="_blank">Live Preview</a> 🏟️
-  <a href="#" target="_blank">Data on Kaggle</a> 🌪️
-  <a href="#" target="_blank">Request Feature</a> 🛠️
 </div>
 <br>
 <div align="center">
