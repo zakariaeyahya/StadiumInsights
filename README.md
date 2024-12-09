@@ -1,118 +1,119 @@
-<div align="center"> 
-  <a href="#">
-    <img src="![image](https://github.com/user-attachments/assets/5fbeff13-b2ec-4ad7-9687-a072a6a3b3bf)" alt="Banner" width="720">
-  </a>
+# StadiumInsights
 
-  <div id="user-content-toc">
-    <ul>
-      <summary><h1 style="display: inline-block;">StadiumInsights</h1></summary>
-    </ul>
-  </div>
-  
-  <p>Collecte, transformation et visualisation des données de stades de football pour des analyses détaillées.</p>
-  <a href="#" target="_blank">Live Preview</a> 🏟️
-</div>
-<br>
-<div align="center">
-  <a href="#"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/></a>
-  <img src="https://img.shields.io/github/stars/zakariaeyahya/StadiumInsights?color=blue&style=social"/>
-  <a href="https://youtu.be/iYvwxq49_D0"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
-</div>
+**StadiumInsights** est un projet innovant de data engineering qui vise à collecter, transformer et visualiser des données détaillées sur les stades de football à travers le monde. Ce pipeline de données entièrement automatisé offre une analyse complète des infrastructures sportives globales.
 
-## 📝 Table of Contents
+## 🏟️ Aperçu du Projet
 
-1. [Introduction](#introduction)
-2. [Fichier de Données](#data)
-3. [Fichiers Inclus](#included_files)
-4. [Utilisation](#utilisation)
-5. [Bibliothèques Utilisées](#bibliotheques)
-6. [Travaux Futurs](#travaux_futurs)
-7. [Conclusion](#conclusion)
-8. [Contributeurs](#contributeurs)
-9. [Contact](#contact)
-10. [Licence](#licence)
-<hr>
+StadiumInsights combine web scraping, traitement de données, stockage cloud et visualisation pour fournir des insights uniques sur les stades de football internationaux.
 
-<a name="introduction"></a>
-## 🔬 Introduction
+## 🚀 Fonctionnalités Principales
 
-<p>Le projet StadiumInsights permet de collecter, transformer et visualiser des données relatives aux stades de football. L'application permet d'explorer des informations telles que la capacité des stades, les équipes qui y jouent, les événements programmés, et bien plus. L'objectif est d'offrir une interface interactive pour visualiser ces données et effectuer des analyses pertinentes.</p>
+* **Collecte de Données Automatisée** 
+  * Extraction de données à partir de sources web multiples
+  * Utilisation de techniques avancées de web scraping avec Python
+  * Couverture de stades du monde entier
 
-<a name="data"></a>
-## 🗃️ Fichier de Données
+* **Transformation de Données Intelligente**
+  * Nettoyage et standardisation des données
+  * Enrichissement des informations géographiques
+  * Gestion des inconsistances et valeurs manquantes
 
-<p>Les données utilisées dans ce projet incluent des informations sur les stades de football du monde entier, telles que :</p>
-<ul>
-    <li>Nom du stade</li>
-    <li>Capacité</li>
-    <li>Équipes qui jouent</li>
-    <li>Localisation géographique</li>
-    <li>Historique des événements</li>
-</ul>
-<p>Ces données sont collectées à partir de différentes sources publiques et sont transformées pour être utilisées dans des analyses approfondies.</p>
+* **Infrastructure Technique Robuste**
+  * Pipeline ETL entièrement automatisé
+  * Stockage des données dans Snowflake
+  * Visualisation interactive avec Power BI
 
-<a name="included_files"></a>
-## 📂 Fichiers Inclus
+## 🛠 Technologies
 
-<ul>
-    <li><strong>frontend.py</strong> : Interface utilisateur développée avec Streamlit pour afficher les données des stades et les graphiques de visualisation.</li>
-    <li><strong>data_transformation.py</strong> : Script de transformation des données brutes en format structuré pour l'analyse.</li>
-    <li><strong>requirements.txt</strong> : Liste des bibliothèques nécessaires pour exécuter le projet.</li>
-</ul>
+![Python](https://img.shields.io/badge/Python-3.12+-blue)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-Orchestration-orange)
+![Snowflake](https://img.shields.io/badge/Snowflake-Data%20Warehouse-blue)
+![Power BI](https://img.shields.io/badge/Power%20BI-Visualization-yellow)
+![Docker](https://img.shields.io/badge/Docker-Containerization-blue)
 
-<a name="utilisation"></a>
-## 🚀 Utilisation
+## 📂 Structure du Projet
 
-<p>Pour exécuter ce projet, suivez ces étapes :</p>
-<ol>
-    <li><strong>Clonez le dépôt</strong> : Clonez ce projet sur votre machine locale avec la commande <code>git clone</code>.</li>
-    <li><strong>Installez les dépendances</strong> : Installez les bibliothèques nécessaires via <code>pip install -r requirements.txt</code>.</li>
-    <li><strong>Lancez l'application Streamlit</strong> : Exécutez le script <code>frontend.py</code> pour démarrer l'application.</li>
-    <li><strong>Accédez à l'application</strong> : Ouvrez votre navigateur à l'adresse [http://localhost:8501](http://localhost:8501).</li>
-</ol>
+```
+StadiumInsights/
+├── data/               # Données brutes et transformées
+├── dags/               # Scripts Apache Airflow
+├── notebooks/          # Exploration de données
+├── scripts/            # Scripts ETL Python
+├── docker-compose.yml  # Configuration Docker
+└── README.md           # Documentation principale
+```
 
-<a name="bibliotheques"></a>
-## 📚 Bibliothèques Utilisées
+## 🔧 Installation & Configuration
 
-<ul>
-    <li><strong>Streamlit</strong> : Pour créer une interface web interactive.</li>
-    <li><strong>Pandas</strong> : Pour la manipulation des données.</li>
-    <li><strong>Matplotlib</strong> : Pour générer des graphiques et des visualisations des données de stades.</li>
-    <li><strong>Geopandas</strong> : Pour les analyses géographiques des données.</li>
-</ul>
+### Prérequis
 
-<a name="travaux_futurs"></a>
-## 🔮 Travaux Futurs
+* Python 3.12+
+* Docker
+* Compte Snowflake
+* Power BI Desktop
 
-<ul>
-    <li>Ajouter une fonction de prédiction des événements futurs dans les stades en fonction des tendances passées.</li>
-    <li>Améliorer la visualisation des données avec des cartes interactives des stades à l'échelle mondiale.</li>
-    <li>Intégrer des données en temps réel concernant les matchs et événements des stades.</li>
-</ul>
+### Étapes d'Installation
 
-<a name="conclusion"></a>
-## 🏁 Conclusion
+1. Cloner le dépôt
+```bash
+git clone https://github.com/votre-username/StadiumInsights.git
+cd StadiumInsights
+```
 
-<p>StadiumInsights est un projet complet qui permet de collecter, transformer et analyser les données relatives aux stades de football. Grâce à des visualisations interactives et une interface conviviale, ce projet offre des perspectives intéressantes pour les passionnés de football et les analystes de données.</p>
+2. Installer les dépendances
+```bash
+pip install -r requirements.txt
+```
 
-<a name="contributeurs"></a>
-## 👥 Contributeurs
+3. Démarrer l'environnement Docker
+```bash
+docker-compose up
+```
 
-<ul>
-    <li><strong>Yahya Zakariae</strong> : Développeur et mainteneur du projet.</li>
-</ul>
+## 🔍 Fonctionnalités Détaillées
 
-<a name="contact"></a>
-## 📬 Contact
+### Extraction de Données
+* Scraping automatisé de Wikipedia et autres sources
+* Collecte d'informations sur la capacité, localisation, année de construction
 
-<p>Pour toute question ou commentaire concernant ce projet, n'hésitez pas à contacter :</p>
-<ul>
-    <li><strong>Yahya Zakariae</strong> : <a href="mailto:zakariae.yh@gmail.com">zakariae.yh@gmail.com</a> ou <a href="https://www.linkedin.com/in/zakariae-yahya">LinkedIn</a></li>
-</ul>
+### Transformation
+* Nettoyage des données avec Pandas
+* Normalisation des formats
+* Enrichissement géographique
 
-<a name="licence"></a>
+### Analyse
+* Requêtes SQL avancées sur Snowflake
+* Tableaux de bord interactifs Power BI
+
+## 📊 Résultats & Insights
+
+* Classements des stades par capacité
+* Analyses géographiques détaillées
+* Visualisations interactives des infrastructures sportives
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! Merci de suivre le processus standard :
+
+1. Forker le dépôt
+2. Créer une branche (`git checkout -b feature/nouvelle-fonctionnalite`)
+3. Commiter vos modifications
+4. Pousser sur la branche
+5. Ouvrir une Pull Request
+
 ## 📄 Licence
 
-<p>Ce projet est sous licence MIT.</p>
+Projet sous licence MIT
 
-<p>N'hésitez pas à explorer, expérimenter et contribuer au projet !</p>
+## 👥 Auteurs
+
+* **Zakariae Yahya** - *Data Scientist* - [Profil GitHub](https://github.com/votre-username)
+
+## 📬 Contact
+
+📧 Email : zakariae.yh@gmail.com
+🔗 LinkedIn : [Profil LinkedIn](https://www.linkedin.com/in/votre-profil)
+
+---
+
+**💡 Dernière mise à jour :** Décembre 2024
