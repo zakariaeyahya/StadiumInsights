@@ -38,10 +38,11 @@ StadiumInsights combine web scraping, traitement de données, stockage cloud et 
 StadiumInsights/
 ├── data/               # Données brutes et transformées
 ├── dags/               # Scripts Apache Airflow
-├── notebooks/          # Exploration de données
-├── scripts/            # Scripts ETL Python
+├── pipelines/          # pipelines de données
 ├── docker-compose.yml  # Configuration Docker
-└── README.md           # Documentation principale
+└── dockerfile
+└── requirements.txt          
+
 ```
 
 ## 🔧 Installation & Configuration
