@@ -111,12 +111,12 @@ Projet sous licence MIT
 
 ## 👥 Auteurs
 
-* **Zakariae Yahya** - *Data Scientist* - [Profil GitHub](https://github.com/votre-username)
+* **Zakariae Yahya** - *Data Scientist* - [Profil GitHub](https://github.com/zakariaeyahya)
 
 ## 📬 Contact
 
 📧 Email : zakariae.yh@gmail.com
-🔗 LinkedIn : [Profil LinkedIn](https://www.linkedin.com/in/votre-profil)
+🔗 LinkedIn : [Profil LinkedIn](https://www.linkedin.com/in/zakariae-yahya/)
 
 ---
 
