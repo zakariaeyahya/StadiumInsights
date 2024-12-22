@@ -95,16 +95,6 @@ docker-compose up
 * Visualisations interactives des infrastructures sportives
 ![WhatsApp Image 2024-12-09 à 21 50 27_6502b565](https://github.com/user-attachments/assets/75ffafc6-abe0-44b4-9b33-994892db2e27)
 
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! Merci de suivre le processus standard :
-
-1. Forker le dépôt
-2. Créer une branche (`git checkout -b feature/nouvelle-fonctionnalite`)
-3. Commiter vos modifications
-4. Pousser sur la branche
-5. Ouvrir une Pull Request
-
 ## 📄 Licence
 
 Projet sous licence MIT
