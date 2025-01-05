@@ -106,7 +106,7 @@ Projet sous licence MIT
 * **Ryad kaoutar** - [Profil GitHub](https://github.com/kawkawa324)
 
 ## 📬 Contact
-📧 Email : zakariae.yh@gmail.com  
+📧 Email : zakariae.yh@gmail.com  kawtar.ryad@etu.uae.ac.ma  kayouhsalaheddine@gmail.com
 🔗 LinkedIn :* **Zakariae Yahya** [Profil LinkedIn](https://www.linkedin.com/in/zakariae-yahya/)
 🔗 LinkedIn : * **Ryad Kawtar** - [Profil LinkedIn](https://www.linkedin.com/in/ryad-kawtar-529884253/)
 🔗 LinkedIn : **Salaheddine Kayouh** - [Profil LinkedIn](https://www.linkedin.com/in/salaheddine-kayouh/)
