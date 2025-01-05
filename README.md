@@ -100,14 +100,14 @@ docker-compose up
 Projet sous licence MIT
 
 ## 👥 Auteurs
-
 * **Zakariae Yahya** - *Data Scientist* - [Profil GitHub](https://github.com/zakariaeyahya)
+* **Salaheddine Kayouh** - [Profil LinkedIn](https://www.linkedin.com/in/salaheddine-kayouh/)
+* **Ryad Kawtar** - [Profil LinkedIn](https://www.linkedin.com/in/ryad-kawtar-529884253/)
+* **Salaheddine Kayouh** - [Profil GitHub](https://github.com/771salameche)
 
 ## 📬 Contact
-
-📧 Email : zakariae.yh@gmail.com
+📧 Email : zakariae.yh@gmail.com  
 🔗 LinkedIn : [Profil LinkedIn](https://www.linkedin.com/in/zakariae-yahya/)
 
 ---
-
-**💡 Dernière mise à jour :** Décembre 2024
+**💡 Dernière mise à jour :** janvier 2025
