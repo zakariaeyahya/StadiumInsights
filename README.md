@@ -94,6 +94,7 @@ docker-compose up
 * Analyses géographiques détaillées
 * Visualisations interactives des infrastructures sportives
 ![WhatsApp Image 2024-12-09 à 21 50 27_6502b565](https://github.com/user-attachments/assets/75ffafc6-abe0-44b4-9b33-994892db2e27)
+![image](https://github.com/user-attachments/assets/d620b232-ff2a-4855-b165-42e651fcb114)
 
 ## 📄 Licence
 
@@ -104,6 +105,7 @@ Projet sous licence MIT
 * **Salaheddine Kayouh** - [Profil LinkedIn](https://www.linkedin.com/in/salaheddine-kayouh/)
 * **Ryad Kawtar** - [Profil LinkedIn](https://www.linkedin.com/in/ryad-kawtar-529884253/)
 * **Salaheddine Kayouh** - [Profil GitHub](https://github.com/771salameche)
+* **Ryad kaoutar** - [Profil GitHub](https://github.com/kawkawa324)
 
 ## 📬 Contact
 📧 Email : zakariae.yh@gmail.com  
