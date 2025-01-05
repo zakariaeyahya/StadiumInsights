@@ -102,14 +102,14 @@ Projet sous licence MIT
 
 ## 👥 Auteurs
 * **Zakariae Yahya** - *Data Scientist* - [Profil GitHub](https://github.com/zakariaeyahya)
-* **Salaheddine Kayouh** - [Profil LinkedIn](https://www.linkedin.com/in/salaheddine-kayouh/)
-* **Ryad Kawtar** - [Profil LinkedIn](https://www.linkedin.com/in/ryad-kawtar-529884253/)
 * **Salaheddine Kayouh** - [Profil GitHub](https://github.com/771salameche)
 * **Ryad kaoutar** - [Profil GitHub](https://github.com/kawkawa324)
 
 ## 📬 Contact
 📧 Email : zakariae.yh@gmail.com  
-🔗 LinkedIn : [Profil LinkedIn](https://www.linkedin.com/in/zakariae-yahya/)
+🔗 LinkedIn :* **Zakariae Yahya** [Profil LinkedIn](https://www.linkedin.com/in/zakariae-yahya/)
+🔗 LinkedIn : * **Ryad Kawtar** - [Profil LinkedIn](https://www.linkedin.com/in/ryad-kawtar-529884253/)
+🔗 LinkedIn : **Salaheddine Kayouh** - [Profil LinkedIn](https://www.linkedin.com/in/salaheddine-kayouh/)
 
 ---
 **💡 Dernière mise à jour :** janvier 2025
