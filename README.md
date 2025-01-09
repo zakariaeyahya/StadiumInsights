@@ -32,7 +32,7 @@ StadiumInsights combine web scraping, traitement de données, stockage cloud et 
 ![Docker](https://img.shields.io/badge/Docker-Containerization-blue)
 
 ## 📂 Structure du Projet
-![WhatsApp Image 2024-12-09 à 21 53 39_deb5b51c](https://github.com/user-attachments/assets/47cc95b1-fd6d-408f-ac1a-9b18185cd12c)
+![image](https://github.com/user-attachments/assets/f2697b3b-c99a-4801-803b-09e1dbdf0e4f)
 
 ```
 StadiumInsights/
