@@ -93,8 +93,8 @@ docker-compose up
 * Classements des stades par capacité
 * Analyses géographiques détaillées
 * Visualisations interactives des infrastructures sportives
-![WhatsApp Image 2024-12-09 à 21 50 27_6502b565](https://github.com/user-attachments/assets/75ffafc6-abe0-44b4-9b33-994892db2e27)
-![image](https://github.com/user-attachments/assets/d620b232-ff2a-4855-b165-42e651fcb114)
+![image](https://github.com/user-attachments/assets/0782b3fb-1a95-4dd7-814c-d8b8bdecf959)
+
 
 ## 📄 Licence
 
