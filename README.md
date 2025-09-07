@@ -1,115 +1,102 @@
+
+---
+
 # StadiumInsights
 
-**StadiumInsights** est un projet innovant de data engineering qui vise à collecter, transformer et visualiser des données détaillées sur les stades de football à travers le monde. Ce pipeline de données entièrement automatisé offre une analyse complète des infrastructures sportives globales.
+**StadiumInsights** is an innovative data engineering project designed to collect, transform, and visualize detailed data on football stadiums worldwide. This fully automated data pipeline provides comprehensive analysis of global sports infrastructures.
 
-## 🏟️ Aperçu du Projet
+## 🏟️ Project Overview
+StadiumInsights combines web scraping, data processing, cloud storage, and visualization to deliver unique insights into international football stadiums.
 
-StadiumInsights combine web scraping, traitement de données, stockage cloud et visualisation pour fournir des insights uniques sur les stades de football internationaux.
-
-## 🚀 Fonctionnalités Principales
-
-* **Collecte de Données Automatisée** 
-  * Extraction de données à partir de sources web multiples
-  * Utilisation de techniques avancées de web scraping avec Python
-  * Couverture de stades du monde entier
-
-* **Transformation de Données Intelligente**
-  * Nettoyage et standardisation des données
-  * Enrichissement des informations géographiques
-  * Gestion des inconsistances et valeurs manquantes
-
-* **Infrastructure Technique Robuste**
-  * Pipeline ETL entièrement automatisé
-  * Stockage des données dans Snowflake
-  * Visualisation interactive avec Power BI
+## 🚀 Key Features
+- **Automated Data Collection**
+  - Data extraction from multiple web sources
+  - Advanced web scraping techniques using Python
+  - Coverage of stadiums around the world
+- **Smart Data Transformation**
+  - Data cleaning and standardization
+  - Geographic information enrichment
+  - Handling inconsistencies and missing values
+- **Robust Technical Infrastructure**
+  - Fully automated ETL pipeline
+  - Data storage in Snowflake
+  - Interactive visualization with Power BI
 
 ## 🛠 Technologies
-
 ![Python](https://img.shields.io/badge/Python-3.12+-blue)
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-Orchestration-orange)
 ![Snowflake](https://img.shields.io/badge/Snowflake-Data%20Warehouse-blue)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Visualization-yellow)
 ![Docker](https://img.shields.io/badge/Docker-Containerization-blue)
 
-## 📂 Structure du Projet
+## 📂 Project Structure
 ![image](https://github.com/user-attachments/assets/f2697b3b-c99a-4801-803b-09e1dbdf0e4f)
-
 ```
 StadiumInsights/
-├── data/               # Données brutes et transformées
-├── dags/               # Scripts Apache Airflow
-├── pipelines/          # pipelines de données
-├── docker-compose.yml  # Configuration Docker
+├── data/               # Raw and transformed data
+├── dags/               # Apache Airflow scripts
+├── pipelines/          # Data pipelines
+├── docker-compose.yml  # Docker configuration
 └── dockerfile
-└── requirements.txt          
-
+└── requirements.txt
 ```
 
-## 🔧 Installation & Configuration
+## 🔧 Installation & Setup
+### Prerequisites
+- Python 3.12+
+- Docker
+- Snowflake account
+- Power BI Desktop
 
-### Prérequis
+### Installation Steps
+1. Clone the repository
+   ```bash
+   git clone https://github.com/votre-username/StadiumInsights.git
+   cd StadiumInsights
+   ```
+2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Start the Docker environment
+   ```bash
+   docker-compose up
+   ```
 
-* Python 3.12+
-* Docker
-* Compte Snowflake
-* Power BI Desktop
-
-### Étapes d'Installation
-
-1. Cloner le dépôt
-```bash
-git clone https://github.com/votre-username/StadiumInsights.git
-cd StadiumInsights
-```
-
-2. Installer les dépendances
-```bash
-pip install -r requirements.txt
-```
-
-3. Démarrer l'environnement Docker
-```bash
-docker-compose up
-```
-
-## 🔍 Fonctionnalités Détaillées
-
-### Extraction de Données
-* Scraping automatisé de Wikipedia et autres sources
-* Collecte d'informations sur la capacité, localisation, année de construction
+## 🔍 Detailed Features
+### Data Extraction
+- Automated scraping from Wikipedia and other sources
+- Collection of capacity, location, and year of construction information
 
 ### Transformation
-* Nettoyage des données avec Pandas
-* Normalisation des formats
-* Enrichissement géographique
+- Data cleaning with Pandas
+- Format normalization
+- Geographic enrichment
 
-### Analyse
-* Requêtes SQL avancées sur Snowflake
-* Tableaux de bord interactifs Power BI
+### Analysis
+- Advanced SQL queries on Snowflake
+- Interactive Power BI dashboards
 ![WhatsApp Image 2024-12-07 à 12 12 04_0abf7b85](https://github.com/user-attachments/assets/6af27a05-ade4-43ef-857e-09b6b846acca)
 
-## 📊 Résultats & Insights
-
-* Classements des stades par capacité
-* Analyses géographiques détaillées
-* Visualisations interactives des infrastructures sportives
+## 📊 Results & Insights
+- Stadium rankings by capacity
+- Detailed geographic analysis
+- Interactive visualizations of sports infrastructures
 ![image](https://github.com/user-attachments/assets/0782b3fb-1a95-4dd7-814c-d8b8bdecf959)
 
+## 📄 License
+This project is licensed under the MIT License.
 
-## 📄 Licence
-
-Projet sous licence MIT
-
-## 👥 Auteurs
-* **Zakariae Yahya** - *Data Scientist* - [Profil GitHub](https://github.com/zakariaeyahya)
-* **Salaheddine Kayouh** - [Profil GitHub](https://github.com/771salameche)
-* **Ryad kaoutar** - [Profil GitHub](https://github.com/kawkawa324)
+## 👥 Authors
+- **Zakariae Yahya** - *Data Scientist* - [GitHub Profile](https://github.com/zakariaeyahya)
+- **Salaheddine Kayouh** - [GitHub Profile](https://github.com/771salameche)
+- **Ryad Kaoutar** - [GitHub Profile](https://github.com/kawkawa324)
 
 ## 📬 Contact
-📧 Email : zakariae.yh@gmail.com  kawtar.ryad@etu.uae.ac.ma  kayouhsalaheddine@gmail.com
-🔗 LinkedIn :* **Zakariae Yahya** [Profil LinkedIn](https://www.linkedin.com/in/zakariae-yahya/)
-🔗 LinkedIn : * **Ryad Kawtar** - [Profil LinkedIn](https://www.linkedin.com/in/ryad-kawtar-529884253/)
-🔗 LinkedIn : **Salaheddine Kayouh** - [Profil LinkedIn](https://www.linkedin.com/in/salaheddine-kayouh/)
+📧 Email: zakariae.yh@gmail.com, kawtar.ryad@etu.uae.ac.ma, kayouhsalaheddine@gmail.com
+🔗 LinkedIn: **Zakariae Yahya** - [LinkedIn Profile](https://www.linkedin.com/in/zakariae-yahya/)
+🔗 LinkedIn: **Ryad Kaoutar** - [LinkedIn Profile](https://www.linkedin.com/in/ryad-kawtar-529884253/)
+🔗 LinkedIn: **Salaheddine Kayouh** - [LinkedIn Profile](https://www.linkedin.com/in/salaheddine-kayouh/)
 
 ---
-**💡 Dernière mise à jour :** janvier 2025
+**💡 Last updated:** January 2025
